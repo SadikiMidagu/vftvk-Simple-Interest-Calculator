@@ -34,6 +34,9 @@ background: lightpink;
     font: 12px Arial, sans-serif;
 }
 
+mark{
+    background-color: yellow;
+}
 button {
     background: rgb(199, 190, 190);
 }
