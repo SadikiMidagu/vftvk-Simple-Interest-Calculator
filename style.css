@@ -15,6 +15,12 @@ background: lightpink;
 
 }
 
+.alert {
+    padding: 25px;
+    background-color: #f44336;
+    color: white;
+}
+
 .letterCircle {
     border-radius: 46%;
     width: 8px;

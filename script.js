@@ -4,6 +4,10 @@ function calculate()
     p = document.getElementById("p").value;
     n = document.getElementById("n").value;
     r = document.getElementById("r").value;
+    if (p<=0) {
+        alert("The principal has to be greater than 0");
+    }
+
     result = document.getElementById("result");
     interest = (p*n*r/100);
     currentYear = new Date().getFullYear();
