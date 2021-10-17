@@ -1,4 +1,42 @@
-body {background-color:tan;}
-h1{color:green;}
 
+h1 {
+    color:grey;
+}
+
+#txbox{
+border: 1px solid black;
+box-shadow: 1px 2px 2px black;
+width: 50%;
+height: 60%;
+padding-left: 5%;
+position: absolute;
+border-radius: 25px;
+background: lightpink;
+
+}
+
+.letterCircle {
+    border-radius: 46%;
+    width: 8px;
+    height: 8px;
+    padding: 3px;
+
+    border: 1px solid rgb(10, 10, 10);
+    color: rgb(10, 10, 10);
+    text-align: center;
+
+    font: 12px Arial, sans-serif;
+}
+
+button {
+    background: rgb(199, 190, 190);
+}
+
+section {
+    padding-left: 60px;
+}
+
+body {
+    background: rgb(78, 48, 48);
+}
 
