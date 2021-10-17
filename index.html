@@ -1,3 +1,5 @@
+
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <html>
@@ -5,30 +7,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <title>Interest Calculator</title>
-
         <link href="style.css" rel="stylesheet" type="text/css">
         <script src="script.js"></script>
 
-
     </head>
-
     <body>
         <div id="txbox">
             <h1>Simple Interest Calculator</h1>
-
             <section>
                 Amount: $<input id="p"><br/>
-
                 <br/>
                 <label for="rate">Interest Rate: </label>
                 <input type="range" value="10.50" min="0.0" max="20.0" step="0.50" id="r" oninput="this.nextElementSibling.value = this.value">
                 <output>10.50%</output>
                 <br>
 
-
-                <!-- No. of Years: <input id="n"><br/>  -->
                 <br/>
                 No. of Years<select id="n" name="numbers">
                     <option value="1">1</option>
@@ -54,19 +48,15 @@
 
                     <br/>
                     <br/>
-
                 </select>
                 <br/>
 
                 <br/>
                 <button onclick="calculate()">Compute Interest</button>
-
                 <p id="result"></p>
-
-        
-        </section>
-    <text class="letterCircle">C</text>
-    <text> Everyone Can Get Rich</text>
-</div>
-</body>
+            </section>
+        <text class="letterCircle">C</text>
+        <text> Everyone Can Get Rich</text>
+        </div>
+    </body>
 </html>
