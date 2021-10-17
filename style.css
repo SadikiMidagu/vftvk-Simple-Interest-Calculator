@@ -11,7 +11,7 @@ height: 60%;
 padding-left: 5%;
 position: absolute;
 border-radius: 25px;
-background: lightpink;
+background: rgb(251, 251, 251);
 
 }
 
@@ -46,6 +46,6 @@ section {
 }
 
 body {
-    background: rgb(78, 48, 48);
+    background: rgb(0, 0, 0);
 }
 
